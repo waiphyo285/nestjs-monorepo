@@ -1,0 +1,124 @@
+{
+  "projects": {
+    "framework/decorators": {
+      "type": "library",
+      "root": "libs/framework/decorators",
+      "entryFile": "index",
+      "sourceRoot": "libs/framework/decorators/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/framework/decorators/tsconfig.lib.json"
+      }
+    },
+    "framework/handlers": {
+      "type": "library",
+      "root": "libs/framework/handlers",
+      "entryFile": "index",
+      "sourceRoot": "libs/framework/handlers/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/framework/handlers/tsconfig.lib.json"
+      }
+    },
+    "framework/interceptors": {
+      "type": "library",
+      "root": "libs/framework/interceptors",
+      "entryFile": "index",
+      "sourceRoot": "libs/framework/interceptors/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/framework/interceptors/tsconfig.lib.json"
+      }
+    },
+    "framework/middlewares": {
+      "type": "library",
+      "root": "libs/framework/middlewares",
+      "entryFile": "index",
+      "sourceRoot": "libs/framework/middlewares/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/framework/middlewares/tsconfig.lib.json"
+      }
+    },
+    "gateway": {
+      "type": "application",
+      "root": "apps/gateway",
+      "entryFile": "main",
+      "sourceRoot": "apps/gateway/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/gateway/tsconfig.app.json"
+      }
+    },
+    "infrastructure/abstracts": {
+      "type": "library",
+      "root": "libs/infrastructure/abstracts",
+      "entryFile": "index",
+      "sourceRoot": "libs/infrastructure/abstracts/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/infrastructure/abstracts/tsconfig.lib.json"
+      }
+    },
+    "infrastructure/configs": {
+      "type": "library",
+      "root": "libs/infrastructure/configs",
+      "entryFile": "index",
+      "sourceRoot": "libs/infrastructure/configs/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/infrastructure/configs/tsconfig.lib.json"
+      }
+    },
+    "infrastructure/databases": {
+      "type": "library",
+      "root": "libs/infrastructure/databases",
+      "entryFile": "index",
+      "sourceRoot": "libs/infrastructure/databases/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/infrastructure/databases/tsconfig.lib.json"
+      }
+    },
+    "infrastructure/interfaces": {
+      "type": "library",
+      "root": "libs/infrastructure/interfaces",
+      "entryFile": "index",
+      "sourceRoot": "libs/infrastructure/interfaces/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/infrastructure/interfaces/tsconfig.lib.json"
+      }
+    },
+    "infrastructure/utils": {
+      "type": "library",
+      "root": "libs/infrastructure/utils",
+      "entryFile": "index",
+      "sourceRoot": "libs/infrastructure/utils/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/infrastructure/utils/tsconfig.lib.json"
+      }
+    },
+    "neo": {
+      "type": "application",
+      "root": "apps/neo",
+      "entryFile": "main",
+      "sourceRoot": "apps/neo/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/neo/tsconfig.app.json"
+      }
+    },
+    "presentation/templates": {
+      "type": "library",
+      "root": "libs/presentation/templates",
+      "entryFile": "index",
+      "sourceRoot": "libs/presentation/templates/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/presentation/templates/tsconfig.lib.json"
+      }
+    },
+    "vita": {
+      "type": "application",
+      "root": "apps/vita",
+      "entryFile": "main",
+      "sourceRoot": "apps/vita/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/vita/tsconfig.app.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": false
+  }
+}

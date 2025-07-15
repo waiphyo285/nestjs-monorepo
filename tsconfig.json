@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@app/framework/handlers": [
+        "libs/framework/handlers/src"
+      ],
+      "@app/framework/handlers/*": [
+        "libs/framework/handlers/src/*"
+      ],
+      "@app/framework/interceptors": [
+        "libs/framework/interceptors/src"
+      ],
+      "@app/framework/interceptors/*": [
+        "libs/framework/interceptors/src/*"
+      ],
+      "@app/framework/middlewares": [
+        "libs/framework/middlewares/src"
+      ],
+      "@app/framework/middlewares/*": [
+        "libs/framework/middlewares/src/*"
+      ],
+      "@app/infrastructure/configs": [
+        "libs/infrastructure/configs/src"
+      ],
+      "@app/infrastructure/configs/*": [
+        "libs/infrastructure/configs/src/*"
+      ],
+      "@app/infrastructure/interfaces": [
+        "libs/infrastructure/interfaces/src"
+      ],
+      "@app/infrastructure/interfaces/*": [
+        "libs/infrastructure/interfaces/src/*"
+      ],
+      "@app/infrastructure/utils": [
+        "libs/infrastructure/utils/src"
+      ],
+      "@app/infrastructure/utils/*": [
+        "libs/infrastructure/utils/src/*"
+      ],
+      "@framework/*": [
+        "libs/framework/*/src"
+      ],
+      "@infrastructure/*": [
+        "libs/infrastructure/*/src"
+      ],
+      "@presentation/*": [
+        "libs/presentation/*/src"
+      ]
+    }
+  }
+}
