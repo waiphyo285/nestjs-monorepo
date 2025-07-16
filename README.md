@@ -1,10 +1,10 @@
-# NestJS Monorepo Manual Setup
+# NestJS Monorepo - Manual
 
 This repository demonstrates how to manually set up a NestJS monorepo without using the deprecated `--monorepo` CLI flag.
 
 ---
 
-## 1. Create Workspace Folder
+## 1. Create Workspace
 
 ```bash
 mkdir nestjs-monorepo
@@ -30,7 +30,7 @@ npm i -D @nestjs/cli
 
 ---
 
-## 3. Create Folder Structure
+## 3. Create Structure
 
 ```bash
 mkdir apps libs
@@ -38,7 +38,7 @@ mkdir apps libs
 
 ---
 
-## 4. Generate Apps Manually
+## 4. Generate Apps
 
 Generate apps inside the `apps/` folder:
 
@@ -53,7 +53,7 @@ nest new apps/gateway
 
 ---
 
-## 5. Generate Libraries Manually
+## 5. Generate Libraries
 
 Generate libs inside the `libs/` folder:
 
@@ -171,7 +171,7 @@ npm run start:neo
 
 ---
 
-## Additional Tips
+## Additional
 
 - Use path aliases defined in `tsconfig.json` when importing libs in your apps.
 - Build apps with `nest build neo`.
